@@ -1,0 +1,53 @@
+﻿<Properties StartupConfiguration="{082AC75E-EE46-434F-9A45-0A47FE20A7AC}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.TheProjectToSend PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TheProjectToSend/Program.cs">
+    <Files>
+      <File FileName="TheProjectToSend/DTOs/PersonCreateDTO.cs" Line="30" Column="46" IsPinned="True" />
+      <File FileName="TheProjectToSend/Controllers/PersonController.cs" Line="22" Column="5" />
+      <File FileName="TheProjectToSend/Repositories/PersonRepository.cs" Line="10" Column="49" />
+      <File FileName="TheProjectToSend/Service/PersonService.cs" Line="1" Column="1" />
+      <File FileName="TheProjectToSend/Models/Person.cs" />
+      <File FileName="TheProjectToSend/Models/Gender.cs" />
+      <File FileName="TheProjectToSend/Program.cs" Line="1" Column="1" />
+      <File FileName="TheProjectToSend/appsettings.json" />
+      <File FileName="TheProjectToSend/Context/PersonContext.cs" />
+      <File FileName="TheProjectToSend/Models/PasswordHasher.cs" Line="1" Column="1" />
+      <File FileName="TheProjectToSend/DTOs/PersonUpdateDTO.cs" Line="1" Column="1" />
+      <File FileName="TheProjectToSend/Repositories/Interfaces/IGenderRepository.cs" />
+      <File FileName="TheProjectToSend/Repositories/GenderRepository.cs" Line="1" Column="1" />
+      <File FileName="TheProjectToSend/Validators/PersonUpdateValidator.cs" />
+      <File FileName="TheProjectToSend/Service/AuthService.cs" Line="11" Column="64" />
+      <File FileName="TheProjectToSend/Service/Interfaces/IAuthService.cs" Line="1" Column="1" />
+      <File FileName="TheProjectToSend/Repositories/Interfaces/IPersonRepository.cs" Line="1" Column="1" />
+      <File FileName="TheProjectToSend/Service/Interfaces/IPersonService.cs" Line="10" Column="48" />
+      <File FileName="TheProjectToSend/Controllers/AuthenticController.cs" Line="47" Column="1" />
+      <File FileName="TheProjectToSend/Models/TokenCredential.cs" />
+      <File FileName="TheProjectToSend/Validators/PersonCreateValidator.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TheProjectToSend" expanded="True">
+            <Node name="TheProjectToSend" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Context" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="DTOs" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="Service" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+              <Node name="Validators" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
