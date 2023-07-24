@@ -1,0 +1,206 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.Contracts\\ProjectToSend.Contracts.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.Business\\ProjectToSend.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.Business\\ProjectToSend.Business.csproj",
+        "projectName": "ProjectToSend.Business",
+        "projectPath": "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.Business\\ProjectToSend.Business.csproj",
+        "packagesPath": "C:\\Users\\Giorgi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Giorgi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.DataAccess.Contracts\\ProjectToSend.DataAccess.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.DataAccess.Contracts\\ProjectToSend.DataAccess.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.Contracts\\ProjectToSend.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.Contracts\\ProjectToSend.Contracts.csproj",
+        "projectName": "ProjectToSend.Contracts",
+        "projectPath": "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.Contracts\\ProjectToSend.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Giorgi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Giorgi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.Business\\ProjectToSend.Business.csproj": {
+                "projectPath": "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.Business\\ProjectToSend.Business.csproj"
+              },
+              "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.DataAccess.Contracts\\ProjectToSend.DataAccess.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.DataAccess.Contracts\\ProjectToSend.DataAccess.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.DataAccess.Contracts\\ProjectToSend.DataAccess.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.DataAccess.Contracts\\ProjectToSend.DataAccess.Contracts.csproj",
+        "projectName": "ProjectToSend.DataAccess.Contracts",
+        "projectPath": "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.DataAccess.Contracts\\ProjectToSend.DataAccess.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Giorgi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.DataAccess.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Giorgi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Antlr": {
+              "target": "Package",
+              "version": "[3.5.0.2, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

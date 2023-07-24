@@ -1,0 +1,7 @@
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\TheProjectToSend\obj\Debug\net6.0\TheProjectToSend.Api.csproj.AssemblyReference.cache
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\TheProjectToSend\obj\Debug\net6.0\TheProjectToSend.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\TheProjectToSend\obj\Debug\net6.0\TheProjectToSend.Api.AssemblyInfoInputs.cache
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\TheProjectToSend\obj\Debug\net6.0\TheProjectToSend.Api.AssemblyInfo.cs
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\TheProjectToSend\obj\Debug\net6.0\TheProjectToSend.Api.csproj.CoreCompileInputs.cache
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\TheProjectToSend\obj\Debug\net6.0\TheProjectToSend.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\TheProjectToSend\obj\Debug\net6.0\TheProjectToSend.Api.MvcApplicationPartsAssemblyInfo.cache

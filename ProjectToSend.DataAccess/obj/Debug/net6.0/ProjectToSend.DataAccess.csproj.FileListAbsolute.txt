@@ -1,0 +1,5 @@
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess\obj\Debug\net6.0\ProjectToSend.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess\obj\Debug\net6.0\ProjectToSend.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess\obj\Debug\net6.0\ProjectToSend.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess\obj\Debug\net6.0\ProjectToSend.DataAccess.AssemblyInfo.cs
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess\obj\Debug\net6.0\ProjectToSend.DataAccess.csproj.CoreCompileInputs.cache

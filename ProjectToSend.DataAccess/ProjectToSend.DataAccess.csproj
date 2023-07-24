@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.20.0" />
+    <PackageReference Include="DotNetOpenAuth.OpenId.Core" Version="4.3.4.13329" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectToSend.Business\ProjectToSend.Business.csproj" />
+    <ProjectReference Include="..\ProjectToSend.DataAccess.Contracts\ProjectToSend.DataAccess.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

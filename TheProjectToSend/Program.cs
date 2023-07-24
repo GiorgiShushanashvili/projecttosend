@@ -4,33 +4,36 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using ProjectToSend.CrossCutting.Services;
+using TheProjectToSend.Api.Extensions;
 using TheProjectToSend.Context;
 using TheProjectToSend.Models;
-using TheProjectToSend.Repositories;
-using TheProjectToSend.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddPersonContext(builder.Configuration);
+builder.Services.PolicyRegistration(builder.Configuration);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<PersonContext>(opt =>
+
+/*builder.Services.AddDbContext<PersonContext>(opt =>
                           opt.UseSqlServer(builder.Configuration.GetConnectionString("NewDatabase"))
                              .EnableSensitiveDataLogging()
                              .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
-builder.Services.AddScoped<IPersonRepository<Person>, PersonRepository>();
-builder.Services.AddScoped<IGenderRepository<Gender>, GenderRepository>();
-builder.Services.AddScoped<IPersonService, PersonService>();
-builder.Services.AddScoped<IAuthService, AuthService>();
+//builder.Services.AddScoped<IPersonRepository<Person>, PersonRepository>();
+//builder.Services.AddScoped<IGenderRepository<Gender>, GenderRepository>();
+//builder.Services.AddScoped<IPersonService, PersonService>();
+//builder.Services.AddScoped<IAuthService, AuthService>();
 
-builder.Services.AddCors();
+//builder.Services.AddCors();
 builder.Services.AddControllers().AddJsonOptions(x =>
                 x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
-builder.Services.AddSwaggerGen(setup =>
+/*builder.Services.AddSwaggerGen(setup =>
 {
     // Include 'SecurityScheme' to use JWT Authentication
     var jwtSecurityScheme = new OpenApiSecurityScheme
@@ -78,7 +81,7 @@ builder.Services.AddAuthentication(x =>
                ValidateIssuer = false,
                ValidateAudience = false
            };
-       });
+       });*/
 
 
 
@@ -92,6 +95,7 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseCors("DevCors");
 }
 
 app.UseHttpsRedirection();
