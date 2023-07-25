@@ -1,9 +1,11 @@
 ﻿using System.Text;
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using ProjectToSend.CrossCutting;
 using ProjectToSend.CrossCutting.Services;
 using TheProjectToSend.Api.Extensions;
 using TheProjectToSend.Context;
@@ -14,12 +16,16 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddPersonContext(builder.Configuration);
 builder.Services.PolicyRegistration(builder.Configuration);
-
+builder.Services.AddCommonServices();
+builder.Services.AddAuthorization();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
+//builder.Services.AddSwaggerGen();
+if (builder.Environment.IsDevelopment())
+{
+    builder.Services.AddSwagger();
+}
 
 /*builder.Services.AddDbContext<PersonContext>(opt =>
                           opt.UseSqlServer(builder.Configuration.GetConnectionString("NewDatabase"))
@@ -93,8 +99,8 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    //app.UseSwagger();
+    app.UseSwaggerWithUi();
     app.UseCors("DevCors");
 }
 
@@ -111,5 +117,12 @@ app.UseEndpoints(endpoints =>
     endpoints.MapControllers();
 });
 
-app.Run();
+try
+{
+    app.Run();
+}
+catch (Exception)
+{
+    throw;
+}
 

@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ProjectToSend.Business\ProjectToSend.Business.csproj" />
     <ProjectReference Include="..\ProjectToSend.Contracts\ProjectToSend.Contracts.csproj" />
     <ProjectReference Include="..\ProjectToSend.DataAccess.Contracts\ProjectToSend.DataAccess.Contracts.csproj" />

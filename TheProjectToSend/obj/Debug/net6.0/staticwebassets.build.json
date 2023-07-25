@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eJ3FOEJrzOyVKyzAaAdM1LNO8x+JnTONc8NhV2fLUK4=",
+  "Source": "TheProjectToSend.Api",
+  "BasePath": "_content/TheProjectToSend.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

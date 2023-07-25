@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "JR8Pq2j3nyw1UUuE/iaRKcQFfAHsno7xkv4+2VGtYD5B891AqfwGf2zB4hI8gY1CymxOPM0iTq6N74OxsVbGJQ==",
+  "dgSpecHash": "r9HIm1wZbK+drp7lkctmF/OKXAmKHMCABBrWwDI6pwEq5PVrJO/YN8WaxaUmoPh0+2aWTbw2S8yj8D6bzbHGgA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.Application\\ProjectToSend.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Giorgi\\.nuget\\packages\\antlr\\3.5.0.2\\antlr.3.5.0.2.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
     "C:\\Users\\Giorgi\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512"

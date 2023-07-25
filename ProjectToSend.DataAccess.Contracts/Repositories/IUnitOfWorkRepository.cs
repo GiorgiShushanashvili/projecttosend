@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TheProjectToSend.Models;
+﻿using TheProjectToSend.Models;
 
 namespace ProjectToSend.DataAccess.Contracts.Repositories
 {

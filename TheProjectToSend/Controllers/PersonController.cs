@@ -1,19 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
-using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
-using FluentValidation;
+﻿using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
 using ProjectToSend.Contracts.Services;
 using TheProjectToSend.DTOs;
 using TheProjectToSend.Models;
-using TheProjectToSend.Service;
 using TheProjectToSend.Validators;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -24,11 +15,9 @@ namespace TheProjectToSend.Controllers
     [Route("api/controller")]
     public class PersonController : Controller
     {
-        private readonly TokenCredential _appsettings;
         private readonly IPersonService _service;
-        public PersonController(IPersonService service,IOptions<TokenCredential> appsettings)
+        public PersonController(IPersonService service)
         {
-            _appsettings = appsettings.Value;
             _service = service;
         }
 

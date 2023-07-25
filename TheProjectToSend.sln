@@ -11,11 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectToSend.DataAccess", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectToSend.DataAccess.Contracts", "ProjectToSend.DataAccess.Contracts\ProjectToSend.DataAccess.Contracts.csproj", "{DCB1C3BE-DF44-4660-A8E6-1BD23B21C753}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectToSend.Business", "ProjectToSend.Business\ProjectToSend.Business.csproj", "{54CDF094-3E2E-4DA9-9344-2884998299E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectToSend.Business", "ProjectToSend.Business\ProjectToSend.Business.csproj", "{54CDF094-3E2E-4DA9-9344-2884998299E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectToSend.Application", "ProjectToSend.Application\ProjectToSend.Application.csproj", "{CE15B593-01C3-4FB5-94E4-617A05A71233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectToSend.Application", "ProjectToSend.Application\ProjectToSend.Application.csproj", "{CE15B593-01C3-4FB5-94E4-617A05A71233}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectToSend.Contracts", "ProjectToSend.Contracts\ProjectToSend.Contracts.csproj", "{829B35B9-EC6A-4044-B73D-F805C48E2E47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectToSend.Contracts", "ProjectToSend.Contracts\ProjectToSend.Contracts.csproj", "{829B35B9-EC6A-4044-B73D-F805C48E2E47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

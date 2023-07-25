@@ -10,11 +10,9 @@ namespace TheProjectToSend.Service
 	{
         private readonly IUnitOfWorkRepository _unitofworkrepository;
 		private readonly IPersonRepository _personRepository;
-        private readonly IGenderRepository _genderRepository;
-		public PersonService(IPersonRepository personRepository, IGenderRepository genderRepository, IUnitOfWorkRepository unitOfWorkRepository)
+		public PersonService(IPersonRepository personRepository,IUnitOfWorkRepository unitOfWorkRepository)
 		{
 			_personRepository = personRepository;
-            _genderRepository = genderRepository;
             _unitofworkrepository = unitOfWorkRepository;
 		}
 

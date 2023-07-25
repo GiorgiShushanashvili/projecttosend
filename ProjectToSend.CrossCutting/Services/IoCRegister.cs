@@ -33,6 +33,7 @@ namespace ProjectToSend.CrossCutting
             services.AddScoped<IGenderRepository, GenderRepository>();
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IPersonRepository, PersonRepository>();
+            services.AddScoped<IUnitOfWorkRepository, UnitOfWorkRepository>();
             return services;
         }
         private static IServiceCollection AddCorsService(IServiceCollection services)
@@ -41,7 +42,7 @@ namespace ProjectToSend.CrossCutting
             {
                 opt.AddPolicy("DevCors", (corsBuilder) =>
                 {
-                    corsBuilder.WithOrigins("http://localhost:4200", "http://localhost:3000", "http://localhost:8000")
+                    corsBuilder.WithOrigins("http://localhost:4200", "http://localhost:3000", "http://localhost:8000","http://localhost:7178")
                         .AllowAnyMethod()
                         .AllowAnyHeader()
                         .AllowCredentials();

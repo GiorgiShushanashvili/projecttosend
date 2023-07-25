@@ -1,13 +1,6 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
-using System.Text.Json.Serialization;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Newtonsoft.Json.Converters;
-
-namespace TheProjectToSend.Models
+﻿namespace TheProjectToSend.Models
 {
-	public class Gender
+    public class Gender
 	{
 		public int GenderId { get; set; }
 		public string Name { get; set; }		
