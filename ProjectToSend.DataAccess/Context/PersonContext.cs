@@ -1,12 +1,10 @@
-﻿using System;
-using System.Reflection;
-using Microsoft.AspNetCore.Authentication;
+﻿using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using TheProjectToSend.Models;
 
 namespace TheProjectToSend.Context
 {
-	public class PersonContext:DbContext
+    public class PersonContext:DbContext
 	{
         /*public PersonContext() { }
         protected override void OnConfiguring(DbContextOptionsBuilder options)
@@ -22,16 +20,6 @@ namespace TheProjectToSend.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
-        }
-
-        internal Task<int> SaveChangesAsync()
-        {
-            throw new NotImplementedException();
-        }
-
-        internal void DisposeAsync()
-        {
-            throw new NotImplementedException();
         }
 
         public DbSet<Person> Person { get; set; }

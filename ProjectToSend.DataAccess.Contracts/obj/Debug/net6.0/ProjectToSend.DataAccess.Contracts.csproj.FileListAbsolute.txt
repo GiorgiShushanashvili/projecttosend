@@ -3,3 +3,10 @@ C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess.Contrac
 C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess.Contracts\obj\Debug\net6.0\ProjectToSend.DataAccess.Contracts.AssemblyInfoInputs.cache
 C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess.Contracts\obj\Debug\net6.0\ProjectToSend.DataAccess.Contracts.AssemblyInfo.cs
 C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess.Contracts\obj\Debug\net6.0\ProjectToSend.DataAccess.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess.Contracts\bin\Debug\net6.0\ProjectToSend.DataAccess.Contracts.deps.json
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess.Contracts\bin\Debug\net6.0\ProjectToSend.DataAccess.Contracts.dll
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess.Contracts\bin\Debug\net6.0\ProjectToSend.DataAccess.Contracts.pdb
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess.Contracts\obj\Debug\net6.0\ProjectToSend.DataAccess.Contracts.dll
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess.Contracts\obj\Debug\net6.0\refint\ProjectToSend.DataAccess.Contracts.dll
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess.Contracts\obj\Debug\net6.0\ProjectToSend.DataAccess.Contracts.pdb
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess.Contracts\obj\Debug\net6.0\ref\ProjectToSend.DataAccess.Contracts.dll

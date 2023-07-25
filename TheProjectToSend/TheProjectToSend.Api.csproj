@@ -40,6 +40,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ProjectToSend.Application\ProjectToSend.Application.csproj" />
+    <ProjectReference Include="..\ProjectToSend.Contracts\ProjectToSend.Contracts.csproj" />
     <ProjectReference Include="..\ProjectToSend.CrossCutting\ProjectToSend.CrossCutting.csproj" />
     <ProjectReference Include="..\ProjectToSend.DataAccess.Contracts\ProjectToSend.DataAccess.Contracts.csproj" />
     <ProjectReference Include="..\ProjectToSend.DataAccess\ProjectToSend.DataAccess.csproj" />
