@@ -1,0 +1,5 @@
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess.Contracts\obj\Debug\net6.0\ProjectToSend.DataAccess.Contracts.csproj.AssemblyReference.cache
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess.Contracts\obj\Debug\net6.0\ProjectToSend.DataAccess.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess.Contracts\obj\Debug\net6.0\ProjectToSend.DataAccess.Contracts.AssemblyInfoInputs.cache
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess.Contracts\obj\Debug\net6.0\ProjectToSend.DataAccess.Contracts.AssemblyInfo.cs
+C:\Users\Giorgi\Desktop\MyProject\projecttosend\ProjectToSend.DataAccess.Contracts\obj\Debug\net6.0\ProjectToSend.DataAccess.Contracts.csproj.CoreCompileInputs.cache

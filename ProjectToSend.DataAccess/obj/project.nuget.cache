@@ -1,0 +1,83 @@
+{
+  "version": 2,
+  "dgSpecHash": "C9X07UKvpQ264s8OcAF5d53cwH/kMnQax1+HOPsjiuGC2dwllGQqLUW+Tu711ZvPpGLqZbrJAeTTA5O0RnNV+g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Giorgi\\Desktop\\MyProject\\projecttosend\\ProjectToSend.DataAccess\\ProjectToSend.DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Giorgi\\.nuget\\packages\\antlr\\3.5.0.2\\antlr.3.5.0.2.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\documentformat.openxml\\2.20.0\\documentformat.openxml.2.20.0.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\dotnetopenauth.core\\4.3.4.13329\\dotnetopenauth.core.4.3.4.13329.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\dotnetopenauth.openid.core\\4.3.4.13329\\dotnetopenauth.openid.core.4.3.4.13329.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.12\\microsoft.entityframeworkcore.6.0.12.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.12\\microsoft.entityframeworkcore.abstractions.6.0.12.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.12\\microsoft.entityframeworkcore.analyzers.6.0.12.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.net.http\\2.0.20505\\microsoft.net.http.2.0.20505.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512",
+    "C:\\Users\\Giorgi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "DotNetOpenAuth.Core 4.3.4.13329 does not provide an inclusive lower bound for dependency Microsoft.Net.Http. An approximate best match of Microsoft.Net.Http 2.0.20505 was resolved.",
+      "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Antlr 3.5.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Antlr",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.Core 4.3.4.13329' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OpenId.Core 4.3.4.13329' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OpenId.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Net.Http 2.0.20505' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

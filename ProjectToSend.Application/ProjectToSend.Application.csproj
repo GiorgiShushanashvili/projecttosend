@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectToSend.Business\ProjectToSend.Business.csproj" />
+    <ProjectReference Include="..\ProjectToSend.Contracts\ProjectToSend.Contracts.csproj" />
+    <ProjectReference Include="..\ProjectToSend.DataAccess.Contracts\ProjectToSend.DataAccess.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
